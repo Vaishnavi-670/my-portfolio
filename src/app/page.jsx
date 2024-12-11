@@ -4,11 +4,12 @@ import { motion } from "framer-motion";
 
 const PortfolioPage = () => {
   const skills = [
-    { name: "JavaScript", percentage: 90 },
-    { name: "React", percentage: 85 },
-    { name: "Node.js", percentage: 80 },
-    { name: "CSS", percentage: 95 },
-    { name: "MongoDB", percentage: 70 },
+    { name: " HTML", percentage: 95 , logo: "./html-5.png"},
+    { name: "JavaScript", percentage: 90 , logo: "./file-type-js-official.svg"},
+    { name: "React", percentage: 85  , logo: "./react.svg"},
+    { name: "Node.js", percentage: 80 , logo: "./nodejs.svg"},
+    { name: "CSS", percentage: 95   , logo: "/css-3.png"},
+    { name: "MongoDB", percentage: 70  , logo: "./mongodb.svg"},
   ];
 
   return (
@@ -92,7 +93,10 @@ const PortfolioPage = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: index * 0.2 }}
             >
-              <h3 className="text-xl font-semibold mb-2">{skill.name}</h3>
+              <div className="flex items-center mb-2">
+                <img src={skill.logo} alt={skill.name} className="w-8 h-8 mr-4" />
+                <h3 className="text-xl font-semibold">{skill.name}</h3>
+              </div>
               <div className="w-full bg-gray-700 rounded-full h-4">
                 <motion.div
                   className="bg-cyan-500 h-4 rounded-full"
@@ -107,6 +111,7 @@ const PortfolioPage = () => {
           ))}
         </div>
       </div>
+
 
       {/* Footer */}
       <footer className="py-6 bg-gray-800 w-full text-center text-gray-400">
