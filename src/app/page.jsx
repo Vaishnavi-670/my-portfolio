@@ -110,7 +110,6 @@ const PortfolioPage = () => {
           ))}
         </div>
       </div>
-
       {/* Footer */}
       <footer className="py-6 bg-gray-800 w-full text-center text-gray-400">
         <p>&copy; {new Date().getFullYear()} [Your Name]. All rights reserved.</p>
