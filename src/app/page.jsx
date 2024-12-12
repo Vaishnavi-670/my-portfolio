@@ -92,6 +92,7 @@ const PortfolioPage = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: index * 0.2 }}
             >
+              
               <div className="flex items-center mb-2">
                 <img src={skill.logo} alt={skill.name} className="w-8 h-8 mr-4" />
                 <h3 className="text-xl font-semibold">{skill.name}</h3>
@@ -111,7 +112,7 @@ const PortfolioPage = () => {
         </div>
       </div>
 
-      
+
       {/* Footer */}
       <footer className="py-6 bg-gray-800 w-full text-center text-gray-400">
         <p>&copy; {new Date().getFullYear()} [Your Name]. All rights reserved.</p>
