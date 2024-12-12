@@ -46,6 +46,7 @@ const PortfolioPage = () => {
               </div>
             </motion.div>
 
+
             {/* Text Section */}
             <div className="w-1/2 flex flex-col justify-center text-left px-6">
               <motion.h1
@@ -80,7 +81,7 @@ const PortfolioPage = () => {
           </div>
         </main>
       </div>
-      
+
       {/* Skills Section */}
       <div className="flex-grow h-[80vh] flex flex-col items-center justify-center ">
         <h2 className="text-4xl font-bold mb-8">My Skills</h2>
