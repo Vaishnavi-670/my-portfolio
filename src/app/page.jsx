@@ -80,6 +80,7 @@ const PortfolioPage = () => {
           </div>
         </main>
       </div>
+      
       {/* Skills Section */}
       <div className="flex-grow h-[80vh] flex flex-col items-center justify-center ">
         <h2 className="text-4xl font-bold mb-8">My Skills</h2>
@@ -92,7 +93,7 @@ const PortfolioPage = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: index * 0.2 }}
             >
-              
+
               <div className="flex items-center mb-2">
                 <img src={skill.logo} alt={skill.name} className="w-8 h-8 mr-4" />
                 <h3 className="text-xl font-semibold">{skill.name}</h3>
