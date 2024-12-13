@@ -46,7 +46,6 @@ const PortfolioPage = () => {
               </div>
               
             </motion.div>
-
             {/* Text Section */}
             <div className="w-1/2 flex flex-col justify-center text-left px-6">
               <motion.h1
