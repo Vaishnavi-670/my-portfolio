@@ -62,7 +62,7 @@ const PortfolioPage = () => {
                 animate={{ x: 0 }}
                 transition={{ duration: 1, delay: 0.5 }}
               >
-                
+
                 A passionate and dedicated web developer specializing in crafting dynamic, responsive, and user-friendly websites. With a strong foundation in modern web technologies like JavaScript, React, Node.js, and MongoDB, I aim to deliver efficient and creative solutions tailored to meet diverse client needs.
               </motion.p>
               <motion.div
@@ -70,6 +70,7 @@ const PortfolioPage = () => {
                 animate={{ scale: 1 }}
                 transition={{ duration: 1, delay: 1 }}
               >
+                
                 <a
                   href="#projects"
                   className="px-6 py-3 bg-cyan-500 text-white font-semibold rounded-lg shadow-md hover:bg-cyan-600"
