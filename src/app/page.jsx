@@ -81,7 +81,6 @@ const PortfolioPage = () => {
           </div>
         </main>
       </div>
-
       {/* Skills Section */}
       <div className="flex-grow h-[80vh] flex flex-col items-center justify-center ">
         <h2 className="text-4xl font-bold mb-8">My Skills</h2>
