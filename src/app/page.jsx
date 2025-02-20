@@ -58,7 +58,7 @@ const PortfolioPage = () => {
                 Hi, I’m <span className="text-cyan-400">Vaishnavi</span>
               </motion.h1>
               <motion.p
-              
+
                 className="text-lg md:text-xl text-gray-400 mb-6"
                 initial={{ x: 50 }}
                 animate={{ x: 0 }}
@@ -71,7 +71,8 @@ const PortfolioPage = () => {
                 initial={{ scale: 0.8 }}
                 animate={{ scale: 1 }}
                 transition={{ duration: 1, delay: 1 }}
-              >                
+              > 
+                             
                 <a
                   href="#projects"
                   className="px-6 py-3 bg-cyan-500 text-white font-semibold rounded-lg shadow-md hover:bg-cyan-600"
