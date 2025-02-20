@@ -72,13 +72,14 @@ const PortfolioPage = () => {
                 animate={{ scale: 1 }}
                 transition={{ duration: 1, delay: 1 }}
               > 
-                             
+
                 <a
                   href="#projects"
                   className="px-6 py-3 bg-cyan-500 text-white font-semibold rounded-lg shadow-md hover:bg-cyan-600"
                 >
                   View My Work
                 </a>
+                
               </motion.div>
             </div>
           </div>
