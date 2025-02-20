@@ -54,10 +54,11 @@ const PortfolioPage = () => {
                 animate={{ x: 0 }}
                 transition={{ duration: 1 }}
               > 
-                            
+
                 Hi, I’m <span className="text-cyan-400">Vaishnavi</span>
               </motion.h1>
               <motion.p
+              
                 className="text-lg md:text-xl text-gray-400 mb-6"
                 initial={{ x: 50 }}
                 animate={{ x: 0 }}
