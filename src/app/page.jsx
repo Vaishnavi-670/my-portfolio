@@ -79,7 +79,6 @@ const PortfolioPage = () => {
                 >
                   View My Work
                 </a>
-
               </motion.div>
               
             </div>
