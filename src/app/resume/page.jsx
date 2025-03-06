@@ -3,7 +3,7 @@ import React from 'react'
 const Resume = () => {
     return (
         <>
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-4xl mb-20 mx-auto">
                 <div className="text-center mt-10 mb-8">
                     <h1 className="text-4xl font-bold">VAISHNAVI</h1>
                     <p className="text-lg mb-4 font-medium">FULL STACK DEVELOPER</p>
