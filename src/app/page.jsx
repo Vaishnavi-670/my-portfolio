@@ -21,8 +21,8 @@ const PortfolioPage = () => {
           <nav>
             <ul className="flex space-x-6">
               <li><a href="#about" className="hover:text-cyan-400">About</a></li>
-              <li><a href="#projects" className="hover:text-cyan-400">Projects</a></li>
-              <li><a href="#contact" className="hover:text-cyan-400">Contact</a></li>
+              <li><a href="/project" className="hover:text-cyan-400">Projects</a></li>
+              <li><a href="/contact" className="hover:text-cyan-400">Contact</a></li>
             </ul>
           </nav>
         </header>
